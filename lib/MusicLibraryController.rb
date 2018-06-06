@@ -32,8 +32,7 @@ class MusicLibraryController
           puts value
         end
       elsif user_input = "exit"
-      exit
+        exit
       end
-    end
   end
 end
