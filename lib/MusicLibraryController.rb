@@ -20,7 +20,8 @@ class MusicLibraryController
     
       user_input = gets.strip
       if user_inpput == "list songs"
-        songs.each_with_index
+        songs.each_with_index do |value, key|
+          
     
     
     
