@@ -25,7 +25,9 @@ class MusicLibraryController
       elsif user_input == "list artists"
         artists.each_with_index do |value, key|
           puts value
-      elsif user_input == "list genres"    
+      elsif user_input == "list genres" 
+        genres.each_with_index do |value, key|
+          puts value
             
         end
         
