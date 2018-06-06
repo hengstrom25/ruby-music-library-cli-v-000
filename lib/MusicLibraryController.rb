@@ -31,6 +31,7 @@ class MusicLibraryController
         genres.each_with_index do |value, key|
           puts value
         end
+      elsif user_input = "list artist"
             
         
         
