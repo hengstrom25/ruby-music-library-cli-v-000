@@ -19,9 +19,10 @@ class MusicLibraryController
       puts "What would you like to do?"
     
       user_input = gets.strip
-      if user_inpput == "list songs"
+      if user_input == "list songs"
         songs.each_with_index do |value, key|
-          
+          puts value
+        end
     
     
     
