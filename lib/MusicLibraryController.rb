@@ -23,6 +23,9 @@ class MusicLibraryController
         songs.each_with_index do |value, key|
           puts value
         end
+        
+        elsif user_input == "exit"
+        exit
       end
   end
 end
