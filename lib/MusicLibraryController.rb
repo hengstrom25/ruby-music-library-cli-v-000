@@ -19,6 +19,8 @@ class MusicLibraryController
       puts "What would you like to do?"
     
       user_input = gets.strip
+      if user_inpput == "list songs"
+        
     
     
     
